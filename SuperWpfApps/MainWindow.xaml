@@ -24,9 +24,9 @@
             <ColumnDefinition Width="39*"/>
             <ColumnDefinition Width="39*"/>
         </Grid.ColumnDefinitions>
-        <ToggleButton x:Name="togglebtn" Background="Black"  Command="{Binding togglebtnClick }" 
+        <ToggleButton x:Name="togglebtn" Background="Black"  Command="{Binding TogglebtnClick }" 
                       IsChecked="True" Cursor="Hand" Grid.Column="0" >
-            <Image x:Name="togglebtnImage" Source="{Binding togglebtnImageSource}" />
+            <Image x:Name="togglebtnImage" Source="{Binding TogglebtnImageSource}" />
         </ToggleButton> 
         <StackPanel Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2">
             <ListView>
