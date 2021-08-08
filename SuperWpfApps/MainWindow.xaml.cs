@@ -17,7 +17,7 @@ using System.Windows.Shapes;
 namespace SuperWpfApps
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainWindow.xaml - Sachin
     /// </summary>
     public partial class MainWindow : Window
     {
